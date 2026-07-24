@@ -1,20 +1,80 @@
 aid: c-infinity
-name: C Infinity
-description: C Infinity is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: C-Infinity
+description: 'C-Infinity is a Mountain View, California company founded in 2023 that
+  builds foundational AI for mechanical design and manufacturing — AI that reasons
+  about geometry, motion, spatial constraints, and production logic. Its platform,
+  AutoAssembler, connects directly to existing CAD and PLM environments to automate
+  assembly process planning, accelerate engineering change order (ECO) reviews, and
+  generate production-ready assembly work instructions, compressing work that
+  historically took weeks into minutes. The product is described by the company as
+  API-first, with an integration layer that connects upstream to engineering systems
+  and downstream to production, but as of July 2026 C-Infinity publishes no public
+  developer portal, API reference, SDKs, or OpenAPI definition — the AutoAssembler
+  application is gated behind a request-a-demo flow and integration is arranged
+  directly with the company. C-Infinity raised a $16M round in April 2026 led by
+  Canaan Partners, with participation from Inventus Capital, Bee Partners, and
+  Radius Capital, and reports deployments across Global Fortune 100 manufacturers as
+  well as small and mid-sized enterprises.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://c-infinity.ai/api/og/home
 url: https://raw.githubusercontent.com/api-evangelist/c-infinity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Manufacturing
+- CAD
+- PLM
+- Engineering
+- Assembly Planning
+- Industrial
 apis: []
+common:
+- type: DomainSecurity
+  url: security/c-infinity-domain-security.yml
+- type: Website
+  url: https://c-infinity.ai/
+- type: Product
+  url: https://autoassembler.com/
+- type: SignUp
+  url: https://app.autoassembler.com/
+- type: Blog
+  url: https://c-infinity.ai/blog
+- type: TermsOfService
+  url: https://c-infinity.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://c-infinity.ai/privacy-policy
+- type: Team
+  url: https://c-infinity.ai/team
+- type: LinkedIn
+  url: https://www.linkedin.com/company/c-infinity-ai/
+- type: YouTube
+  url: https://www.youtube.com/@C-Infinity-AI
+- type: LLMsTxt
+  url: llms/c-infinity-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

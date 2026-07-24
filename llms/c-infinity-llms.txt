@@ -1,0 +1,41 @@
+# C-Infinity
+
+> C-Infinity builds foundational AI for mechanical design and manufacturing — AI that reasons about geometry, motion, spatial constraints, and production logic. Its platform, AutoAssembler, connects to existing CAD and PLM environments to automate assembly process planning, accelerate engineering change order (ECO) reviews, and generate production-ready assembly work instructions.
+
+Founded 2023, headquartered in Mountain View, California. Raised $16M in April 2026 led by Canaan Partners, with Inventus Capital, Bee Partners, and Radius Capital participating.
+
+Important: as of 2026-07-20 C-Infinity publishes **no public API**. There is no developer portal, no API reference, no OpenAPI or AsyncAPI definition, no public SDKs or package-registry libraries, no CLI, no MCP server, no status page, and no public sandbox. The company describes AutoAssembler as "API-first" with "a robust API layer" connecting upstream engineering systems to downstream production, but that integration surface is not publicly documented — access is arranged through a request-a-demo conversation. Do not assume or synthesize endpoint, authentication, or schema details for this provider.
+
+## Product
+
+- [AutoAssembler](https://autoassembler.com/): Assembly planning engine for complex manufacturing; automates process planning, ECO review, and work-instruction generation from CAD geometry.
+- [AutoAssembler application](https://app.autoassembler.com/): Gated web application (sign-in / request access).
+
+## Company
+
+- [C-Infinity](https://c-infinity.ai/): Company home.
+- [Team](https://c-infinity.ai/team): Leadership and research team.
+- [Updates](https://c-infinity.ai/blog): Press releases, product news, and technical posts.
+
+## Selected writing
+
+- [C-Infinity Raises $16M to Eliminate the Manufacturing Bottleneck Between Design and Production](https://c-infinity.ai/blog) (2026-04-22): Funding announcement.
+- [AutoAssembler ASI: Accelerated Spatial Intelligence](https://c-infinity.ai/blog) (2026-03-04): How ASI lets AI reason about industrial assemblies directly from CAD geometry at scale.
+- [Why Assembly Planning Is a Frontier Problem in Mechanical Engineering](https://c-infinity.ai/blog) (2025-07-15).
+- [How AutoAssembler Accelerates Product Development](https://c-infinity.ai/blog) (2025-06-18).
+- [AutoAssembler: AI with Mechanical Intuition](https://c-infinity.ai/blog) (2025-06-09).
+
+## Legal
+
+- [Terms of Service](https://c-infinity.ai/terms-of-service)
+- [Privacy Policy](https://c-infinity.ai/privacy-policy)
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/c-infinity-ai/)
+- [YouTube](https://www.youtube.com/@C-Infinity-AI)
+
+---
+generated: 2026-07-20
+method: generated
+source: apis.yml + c-infinity.ai (no provider-published /llms.txt; HTTP 404)

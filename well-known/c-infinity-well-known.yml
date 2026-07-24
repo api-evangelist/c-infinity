@@ -1,0 +1,54 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of C-Infinity hosts, 2026-07-20
+result: none
+note: >-
+  No /.well-known/ documents are published. app.autoassembler.com returns HTTP 200
+  for every /.well-known/ path, but the body is the AutoAssembler single-page-app
+  HTML shell (verified with a control probe of a nonexistent path, which also
+  returned 200). These are SPA catch-all responses, not real discovery documents,
+  so nothing was saved and no WellKnown or SecurityTxt pointer is wired.
+hosts:
+- host: https://c-infinity.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 404
+  - path: /sitemap.xml
+    status: 404
+- host: https://autoassembler.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://app.autoassembler.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    saved: false
+    reason: spa-catch-all
+  - path: /.well-known/openid-configuration
+    status: 200
+    saved: false
+    reason: spa-catch-all
+  - path: /.well-known/zzz-nonexistent-xyz.json
+    status: 200
+    reason: control probe confirming catch-all
+subdomains_probed:
+- host: https://api.c-infinity.ai
+  status: 0
+  note: no DNS / no response
+- host: https://api.autoassembler.com
+  status: 404
+- host: https://docs.c-infinity.ai
+  status: 0
+- host: https://docs.autoassembler.com
+  status: 404
+- host: https://developers.c-infinity.ai
+  status: 0
+- host: https://status.c-infinity.ai
+  status: 0
