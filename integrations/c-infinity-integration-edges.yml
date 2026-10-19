@@ -1,0 +1,24 @@
+edges:
+- partner_name: Onshape (own)
+  partner: onshape
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://cad.onshape.com/appstore/apps/AI%20Tools/6818f2e821972030f75fa7f3
+  mirror_of: onshape/integrations/onshape-integration-edges.yml
+  apps:
+  - AutoAssembler
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: AI Tools
+generated: '2026-10-19'
+method: searched
+source:
+- https://cad.onshape.com/appstore
+checked:
+- https://cad.onshape.com/appstore
